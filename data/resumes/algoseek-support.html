@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Pedro Barbosa — Algorithmic Support Engineer</title>
+<style>
+@page { size: A4; margin: 10mm 13mm; }
+body { font-family: "Liberation Sans", Arial, sans-serif; font-size: 8.2pt; line-height: 1.15; color: #111; }
+h1 { font-size: 16pt; margin: 0 0 1pt; letter-spacing: .5px; }
+.role { font-size: 9.6pt; color: #333; margin: 0 0 2pt; }
+.contact { font-size: 8pt; color: #444; margin: 0 0 6pt; }
+h2 { font-size: 8.8pt; text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid #999;
+     padding-bottom: 1pt; margin: 6pt 0 3pt; }
+.job { margin-bottom: 3.5pt; }
+.jt { font-weight: bold; }
+.jd { color: #555; font-size: 8pt; margin-bottom: 1pt; }
+ul { margin: 0; padding-left: 13pt; }
+li { margin-bottom: 0.5pt; }
+p { margin: 0 0 3pt; }
+</style></head><body>
+
+<h1>PEDRO BARBOSA</h1>
+<p class="role">Algorithmic Support Engineer — Market Data, Python, SQL</p>
+<p class="contact">Rio de Janeiro, Brazil (UTC&minus;3, full overlap with US EST mornings) · Remote<br>barbosamaverickv8@gmail.com · github.com/Amadeus-22 · amadeus-22.github.io/portfolio · English (fluent) · Portuguese (native) · German (basic)</p>
+
+<h2>Summary</h2>
+<p>Engineer who works on both sides of this role: I build and debug production systems, and I trade. I develop and backtest systematic strategies in Python on QuantConnect's LEAN engine, and I trade forex with my own capital through Interactive Brokers, so I understand intraday workflows, market data quality and execution realities — spread, slippage, gaps and missing ticks — from experience, not from a manual. On the technical side, my daily work is exactly first-line diagnosis: reproduce the reported problem, read logs and API responses, find the root cause, resolve it, and document cause and solution so the next person does not start from zero.</p>
+
+<h2>Experience</h2>
+
+<div class="job">
+<div class="jt">Quantitative Developer — QuantConnect (freelance, remote)</div>
+<div class="jd">September 2025 – present</div>
+<ul>
+<li>Build, backtest and run systematic multi-asset strategies in Python on the LEAN engine, over intraday and daily time-series data.</li>
+<li>Factor research, risk modelling and portfolio construction; live execution against broker APIs through custom scripts.</li>
+<li>Routinely investigate data anomalies: gaps, misaligned timestamps, corporate-action effects and survivorship issues that silently change results if nobody catches them.</li>
+</ul></div>
+
+<div class="job">
+<div class="jt">Full Stack Developer — TIIX (remote)</div>
+<div class="jd">April 2026 – present</div>
+<ul>
+<li>One of two developers on a healthcare platform used daily by patients, clinics and professionals.</li>
+<li>First-line and escalated incident work: reproduce the reported failure, investigate application logs, database state and REST API responses, identify the root cause, fix it, and add an automated check so it cannot return silently.</li>
+<li>Document every change with cause, solution and evidence — over a thousand written change records to date.</li>
+<li>Own features end to end: relational schema and versioned migrations, REST endpoints, interface and tests. Wrote 23 of the repository's 50 database migrations.</li>
+<li>Translate technical problems for non-technical stakeholders: support, product and business teams.</li>
+</ul></div>
+
+<div class="job">
+<div class="jt">Independent Trader — Interactive Brokers</div>
+<div class="jd">2024 – present</div>
+<ul>
+<li>Trade forex with personal capital; profitable operation with a written process for entries, risk limits and review.</li>
+<li>Day-to-day exposure to market data feeds, order execution, latency and the difference between backtest assumptions and live behaviour.</li>
+</ul></div>
+
+<div class="job">
+<div class="jt">Python Developer — Freelance via Workana (remote)</div>
+<div class="jd">January 2025 – March 2026</div>
+<ul>
+<li>Django systems and Python data pipelines for clients: access control, privacy-compliant data handling, normalised relational schemas.</li>
+</ul></div>
+
+<div class="job">
+<div class="jt">Software Development Intern — TT&amp;T Soluções em Informática (remote)</div>
+<div class="jd">August 2024 – January 2025</div>
+<ul>
+<li>Django backend with payment gateway integration; MySQL modelling and documentation; unit tests with pytest; optimisation of slow queries and requests.</li>
+</ul></div>
+
+<h2>Selected Work</h2>
+<p><b>QuantStrata</b> — risk and exposure engine in Python, built so incomplete evidence can never be reported as zero risk: when the data does not cover the window, it refuses to produce a number instead of quietly assuming a flat day. 70 test cases, containerised pipeline, merged through formal code review.<br>
+<b>iode</b> — open source daemon in Go: runs external adapters under a versioned contract with bounded timeouts, response validation, and a job queue with backoff and orphan recovery. 5,100 lines of code covered by 5,675 lines of tests.</p>
+
+<h2>Skills</h2>
+<p><b>Markets:</b> systematic and algorithmic trading workflows, intraday and daily data, backtesting, risk metrics (drawdown, exposure, volatility), forex execution, market data quality analysis<br>
+<b>Technical:</b> Python (pandas, scikit-learn, pytest), SQL and relational databases (MySQL, PostgreSQL, SQLite), REST APIs, Linux, Docker, Git, log analysis and troubleshooting<br>
+<b>Support practice:</b> incident reproduction, root-cause analysis, written documentation of causes and resolutions, clear communication with technical and non-technical users<br>
+<b>Cloud:</b> AWS EC2 — provisioning and operating Linux instances, deploying services and troubleshooting them in a cloud environment</p>
+
+<h2>Education and Certifications</h2>
+<p>Computer Engineering (Data and Machine Learning) — Centro Universitário IBMR · 2023 – 2028 (expected) · GPA 8.7/10<br>
+Scientific initiation in Economic Mathematics and Machine Learning certificate — IMPA, 2024<br>
+HackerRank: Problem Solving (Intermediate), REST API (Intermediate), Python · Coursera: Python for Data Science and AI</p>
+
+</body></html>
