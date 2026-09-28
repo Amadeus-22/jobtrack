@@ -160,6 +160,10 @@ optimism.
 {"id":"2026-09-26-arturia-n3","company":"Arturia Sales Tech","role":"Analista de Sustentação N3 - PHP","applied_on":"2026-09-26","channel":"linkedin","seniority":"mid","stack":["PHP","Linux","SQL","REST"],"resume":"sustentacao-php","asked_salary":10000,"currency":"BRL"}
 ```
 
+Each `resume` value points to a document in the résumé dataset,
+[`data/resumes/`](data/resumes/): one PDF and its HTML source per variant, plus a
+`manifest.jsonl` with role, language, date and checksum.
+
 ---
 
 ## Layout
@@ -173,7 +177,7 @@ src/jobtrack/
   cli.py       argument parsing only
 tests/         27 tests across the model, the store and every metric
 docs/          architecture, decisions, roadmap
-data/          the log itself
+data/          the log itself, plus the résumé dataset in data/resumes/
 ```
 
 ---
