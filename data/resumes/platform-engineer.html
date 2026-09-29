@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Pedro Barbosa — Platform / Support Engineer — Go, AWS, Kubernetes</title>
+<style>
+@page { size: A4; margin: 10mm 13mm; }
+body { font-family: "Liberation Sans", Arial, sans-serif; font-size: 8.7pt; line-height: 1.2; color: #111; }
+h1 { font-size: 16pt; margin: 0 0 1pt; letter-spacing: .5px; }
+.role { font-size: 9.6pt; color: #333; margin: 0 0 2pt; }
+.contact { font-size: 8pt; color: #444; margin: 0 0 6pt; }
+h2 { font-size: 8.8pt; text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid #999;
+     padding-bottom: 1.2pt; margin: 7pt 0 3.5pt; }
+.job { margin-bottom: 4.5pt; }
+.jt { font-weight: bold; }
+.jd { color: #555; font-size: 8pt; margin-bottom: 1pt; }
+ul { margin: 0; padding-left: 13pt; }
+li { margin-bottom: 0.5pt; }
+p { margin: 0 0 3pt; }
+</style></head><body>
+
+<h1>PEDRO BARBOSA</h1>
+<p class="role">Platform / Support Engineer — Go, AWS, Kubernetes, Incident Response</p>
+<p class="contact">Brazil (UTC&minus;3) · Remote · barbosamaverickv8@gmail.com · github.com/Amadeus-22 · amadeus-22.github.io/portfolio<br>Portuguese (native) · English (fluent) · German (basic)</p>
+
+<h2>Summary</h2>
+<p>Engineer who builds and operates production systems end to end, with Go as my language of choice for platform tooling. I provision and operate Linux workloads on AWS EC2 and work with Kubernetes. Day to day I own reliability work: CI pipelines, containerised builds, and incident response — reproduce the failure, read logs and system state, find the root cause, fix it, and leave a check so it cannot return silently. I care about automation that removes toil and failure modes that are visible instead of silent.</p>
+
+<h2>Experience</h2>
+
+<div class="job">
+<div class="jt">Full Stack Developer — TIIX (remote)</div>
+<div class="jd">April 2026 – present</div>
+<ul>
+<li>One of two engineers on a healthcare platform in production, used daily by patients, clinics and professionals, running on Linux with Apache.</li>
+<li>Incident response and root cause analysis: investigate application logs, database state and API responses, fix, and add a regression test — over a thousand written change records with cause, solution and evidence.</li>
+<li>Delivery through Git-based workflows with code review and CI pipelines; wrote 23 of the repository's 50 versioned database migrations and the largest share of its automated test suite.</li>
+<li>Integrations with external services and webhooks, with failure handling and reprocessing.</li>
+</ul></div>
+
+<div class="job">
+<div class="jt">Software Engineer — QuantConnect (freelance, remote)</div>
+<div class="jd">September 2025 – present</div>
+<ul>
+<li>Python batch workloads over years of time-series data, with deterministic, reproducible runs and live execution against broker APIs.</li>
+</ul></div>
+
+<div class="job">
+<div class="jt">Python Developer — Freelance via Workana (remote)</div>
+<div class="jd">January 2025 – March 2026</div>
+<ul>
+<li>Django system for a non-profit with role-based access control and privacy-compliant handling of personal data; data pipelines replacing manual spreadsheet processes.</li>
+</ul></div>
+
+<div class="job">
+<div class="jt">Software Development Intern — TT&amp;T Soluções em Informática (remote)</div>
+<div class="jd">August 2024 – January 2025</div>
+<ul>
+<li>Django backend with payment gateway integration; MySQL modelling, pytest, optimisation of slow queries and HTTP requests.</li>
+</ul></div>
+
+<h2>Selected Work</h2>
+<p><b>iode</b> — open source daemon in Go, my own design: runs external tools as isolated subprocesses under a versioned contract, with bounded timeouts, process-group termination, filtered environment and validation of every response. Job queue with retry, backoff and orphan-job recovery; SQLite storage with numbered migrations. 5,100 lines of Go covered by 5,675 lines of tests, architecture decisions documented.<br>
+<b>QuantStrata</b> — Python risk engine shipped through a containerised pipeline (Docker, GitHub Actions) with 70 test cases, merged through formal code review.<br>
+<b>Akaunting</b> — merged fix to an open source accounting platform: database host and port not applied to the connection during install.</p>
+
+<h2>Skills</h2>
+<p><b>Languages:</b> Go, Python, SQL, Bash, PHP, JavaScript<br>
+<b>Cloud and containers:</b> AWS EC2 (provisioning and operating Linux instances), Kubernetes, Docker<br>
+<b>CI/CD and tooling:</b> GitHub Actions, GitLab CI, Git, Linux, systemd, Apache<br>
+<b>Reliability:</b> incident response, root cause analysis, structured logging, timeouts, retries and backoff, process isolation<br>
+<b>Databases:</b> PostgreSQL, MySQL, SQLite — modelling, versioned migrations, query optimisation<br>
+<b>Learning next:</b> Terraform/Pulumi, EKS, Prometheus and Grafana</p>
+
+<h2>Education and Certifications</h2>
+<p>Computer Engineering — Centro Universitário IBMR · 2023 – 2028 (expected) · GPA 8.7/10<br>
+HackerRank: Problem Solving (Intermediate), REST API (Intermediate) · Scientific initiation — IMPA, 2024</p>
+
+</body></html>

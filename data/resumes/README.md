@@ -32,9 +32,13 @@ report can be traced back to the exact document that produced it.
 | `algoseek-support` | Algorithmic Support Engineer | en |
 | `backend-generic` | Backend Software Engineer | en |
 | `backend-python` | Backend Engineer | en |
+| `blip-ia-dados` | Especialista em IA — Dados para Agentes (MCP) | pt-BR |
+| `cientista-dados` | Cientista de Dados | pt-BR |
 | `fullstack-ai` | Fullstack AI Engineer | en |
+| `fullstack-php-crm` | Desenvolvedor Full Stack PHP/React — Projeto CRM | pt-BR |
 | `ia-agentes` | Engenheiro de IA / Desenvolvedor Python e Go | pt-BR |
 | `ml-platform` | ML Platform / Machine Learning Engineer | en |
+| `platform-engineer` | Support/Platform Engineer | en |
 | `sustentacao-php` | Analista de Sustentação N3 / Desenvolvedor PHP | pt-BR |
 
 `upwork-profile`, used in the log, is the Upwork profile itself and has no file.
